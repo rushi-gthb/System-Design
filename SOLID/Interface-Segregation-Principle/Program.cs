@@ -41,6 +41,7 @@ namespace Bad_Way {
     // Here robots needed to implement Eat() method which they don't need
 }
 
+// Solution to above problem by segregating interfaces
 namespace Good_Way {
     public interface IWorker {
         public void Work();
@@ -73,5 +74,4 @@ namespace Good_Way {
 
         }
     }
-    // Here robots needed to implement Eat() method which they don't need
 }
